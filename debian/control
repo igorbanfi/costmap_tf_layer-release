@@ -1,0 +1,12 @@
+Source: ros-melodic-costmap-tf-layer
+Section: misc
+Priority: optional
+Maintainer: Igor Banfi <banfi.igor@windowslive.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-rospy, ros-melodic-tf2-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-costmap-tf-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-tf2-geometry-msgs
+Description: ROS-package that implements a costmap layer populated by observing tf frames.

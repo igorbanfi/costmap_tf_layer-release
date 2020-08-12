@@ -1,0 +1,8 @@
+ros-melodic-costmap-tf-layer (1.0.1-1stretch) stretch; urgency=high
+
+  * Initial commit
+  * Contributors: Igor Banfi
+
+ -- Igor Banfi <banfi.igor@windowslive.com>  Sun, 09 Aug 2020 22:00:00 -0000
+
+
